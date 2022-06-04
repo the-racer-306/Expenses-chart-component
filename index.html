@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Nunito&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@100;500;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      } -->
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="text">
+        <p class="useless--text">my balance</p>
+        <P class="price">$921.48</P>
+      </div>
+      <div class="circles">
+        <div class="full"></div>
+        <div class="empty-inside"></div>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <h3 class="content-header">Spending - Last 7 days</h3>
+        <div class="bars">
+          <div class="mon-bar"></div>
+          <div class="tue-bar"></div>
+          <div class="wed-bar"></div>
+          <div class="thu-bar"></div>
+          <div class="fri-bar"></div>
+          <div class="sat-bar"></div>
+          <div class="sun-bar"></div>
+        </div>
+        <div class="days">
+          <div class="mon">mon</div>
+          <div class="tue">tue</div>
+          <div class="wed">wed</div>
+          <div class="thu">thu</div>
+          <div class="fri">fri</div>
+          <div class="sat">sat</div>
+          <div class="sun">sun</div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="last-check">
+        <p class="footer-useless-text">Total thismonth</p>
+        <div class="footer-price">$478.5</div>
+        <div class="percentage-of-change">+2.4%</div>
+        <p class="useless-text-2">from last month</p>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
+
+
+<!-- My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun Total
+    this month $478.33 +2.4% from last month -->
